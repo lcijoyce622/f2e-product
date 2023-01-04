@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
@@ -13,5 +15,17 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <script type="text/javascript" src="chrome-extension://cjfdbemmaeeohgibnhdhlakiahifjjcf/injected.js"></script>
   </body>
 </html>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+  @font-face {
+   font-family: Monument Extended;
+   src: url("../../font/PPMonumentExtended-Regular.otf");
+  }
+  @font-face {
+   font-family: Monument Extended-Light;
+   src: url("../../font/PPMonumentExtended-Light.otf"),
+  }
+</style>
